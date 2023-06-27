@@ -81,6 +81,13 @@ button {
 .quote-contianer{
     display: flex;
     flex-grow: 1;
+    background-color: #e5e7eb;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+
 }
 
 .quote {
@@ -88,10 +95,7 @@ button {
     font-style: italic;
     font-weight: 100;
     color: #1f2937;
-    background-color: #e5e7eb;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding: 100px 200px;
+    padding: 100px 20px;
     
 }
 
