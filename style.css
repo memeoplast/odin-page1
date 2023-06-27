@@ -18,15 +18,15 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 100px;
-    gap: 50px;
+    gap: 80px;
 }
 
 .text-hero {
     display: flex;
     justify-content: center;
     flex-direction: column ;
-    align-items: center;
-    gap: 20px;
+    align-items: left;
+    gap: 10px;
     text-align: left;
 }
 
@@ -36,9 +36,8 @@
     font-weight: lighter;
     margin-top: 10px;
     text-align: left;
-
-
 }
+
 
 .header {
     font-size: 24px;
@@ -66,8 +65,7 @@ button {
     justify-content: center;
     align-items: center;
     color: #e5e7eb;
-    border-width: 2px;
-    border-color: #e5e7eb;
+    max-width: 100px;
 }
 
 .info {
@@ -92,9 +90,18 @@ button {
     
 }
 
+.quote-author {
+    text-align: end;
+    font-weight: bold;
+}
+
 .content {
     display: flex;
     flex: 1;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
 ul {
@@ -109,7 +116,7 @@ a {
 }
 
 .right-links {
-    font-size: 10px;
+    font-size: 18px;
     display: flex;
     gap: 10px;
     justify-content: end;
@@ -119,15 +126,18 @@ a {
 .pic1-container {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-  
+    align-items: center;
 }
 
 .content img {
     min-width: 200px;
-    max-width: 100%;
+    max-width: 80%;
     width: auto;
     height: auto;
+    border-radius: 9px;
+    drop-shadow(.5rem .5rem 1rem #e23)
+
+
   }
   
   .main {
@@ -138,6 +148,25 @@ a {
     align-items: center;
 }
 
+.images_cards .content img{
+    filter: drop-shadow(20px 10px 8px #b0b0b1);
+
+}   
+
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+
+  .card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 .card {
     border: none;
@@ -150,22 +179,15 @@ a {
     justify-content: center;
     align-items: center;
     padding: 20px 30px;
+    text-align: center;
 
 }
-
-
 
 body {
     margin: 0;
 }
 
 
-.card-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
 
 .cta{
     background-color: #3882f6;
@@ -176,6 +198,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
+    gap:20px ;
 }
 
 .footer {
@@ -188,5 +211,6 @@ body {
 }
 
 #cta-button{
-    border: 3px #e5e7eb;
+    border: 2px solid #e5e7eb;
 }
+
