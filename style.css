@@ -78,6 +78,11 @@ button {
 
 }
 
+.quote-contianer{
+    display: flex;
+    flex-grow: 1;
+}
+
 .quote {
     font-size: 30px;
     font-style: italic;
@@ -93,6 +98,7 @@ button {
 .quote-author {
     text-align: end;
     font-weight: bold;
+    margin-top: 15px;
 }
 
 .content {
@@ -135,33 +141,34 @@ a {
     width: auto;
     height: auto;
     border-radius: 9px;
-    drop-shadow(.5rem .5rem 1rem #e23)
+}
 
-
-  }
-  
-  .main {
-    background-color: white;
+.main {
     display: flex;
+    background-color: white;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+  
 
 .images_cards .content img{
     filter: drop-shadow(20px 10px 8px #b0b0b1);
 
 }   
 
-
+.images_cards{
+    display: flex;
+    flex-wrap: wrap;
+}
 .img-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-  }
+}
 
-  .card-container {
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,6 +206,11 @@ body {
     align-items: center;
     margin-bottom: 50px;
     gap:20px ;
+    font-weight: bold;
+}
+.cta-subtext{
+    font-size: small;
+    font-weight: 100;
 }
 
 .footer {
@@ -214,3 +226,6 @@ body {
     border: 2px solid #e5e7eb;
 }
 
+#header-button{
+    margin-top: 10px;
+}
