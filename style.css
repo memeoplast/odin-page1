@@ -231,6 +231,14 @@ button {
     max-width: 100px;
 }
 
+button:hover {
+    background-color: #4e64c5;
+}
+
+button:active {
+    background-color: #bcc3e8;
+}
+
 .main {
     display: flex;
     background-color: white;
